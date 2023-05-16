@@ -5,9 +5,12 @@ located)
 
 # Step: 2 ((in .ebv.local file))
 
-VITE_apiKey=put apiKey from firebase without "" VITE_authDomain=put authDomain
-from firebase without "" VITE_projectId=same VITE_storageBucket=same
-VITE_messagingSenderId=same VITE_appId=same
+VITE_apiKey=put apiKey from firebase without "" 
+VITE_authDomain=put authDomain from firebase without "" 
+VITE_projectId=same 
+VITE_storageBucket=same
+VITE_messagingSenderId=same 
+VITE_appId=same
 
 ## For example:
 
