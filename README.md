@@ -19,7 +19,11 @@ VITE_appId=1:188669985277:web:42fff7c6e7299a85421994
 
 # Step: 3 (in firebase.config.js file)
 
-const firebaseConfig = { apiKey: import.meta.env.VITE_apiKey, authDomain:
-import.meta.env.VITE_authDomain, projectId: import.meta.env.VITE_projectId,
-storageBucket: import.meta.env.VITE_storageBucket, messagingSenderId:
-import.meta.env.VITE_messagingSenderId, appId: import.meta.env.VITE_appId, };
+const firebaseConfig = { 
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain, 
+  projectId: import.meta.env.VITE_projectId, 
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId, 
+  appId: import.meta.env.VITE_appId, 
+  };
